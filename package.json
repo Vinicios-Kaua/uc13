@@ -1,0 +1,26 @@
+{
+  "name": "uc13",
+  "version": "1.0.0",
+  "description": "Projeto NodeJS e MySQL - UC13",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vinicios-Kaua/uc13.git"
+  },
+  "keywords": [
+    "express",
+    "express-handlebars",
+    "bootstrap",
+    "mysql",
+    "e-commerce"
+  ],
+  "author": "Vinicios Kauã",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vinicios-Kaua/uc13/issues"
+  },
+  "homepage": "https://github.com/Vinicios-Kaua/uc13#readme"
+}
