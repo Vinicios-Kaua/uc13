@@ -1,0 +1,13 @@
+
+# Ignora a pasta node_modules (Com dependências do Node.js)
+node_modules/
+
+# Ignora arquivos de log
+*.log
+
+# Ignora variáveis de ambiente
+.env
+
+# Ignora paste temporária
+temp/
+dist/
