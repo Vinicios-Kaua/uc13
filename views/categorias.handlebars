@@ -1,0 +1,28 @@
+<table class="table"><thead class="thead-dark">
+      <thead>
+            <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nome</th>
+            <th scope="col">Descrição</th>
+            </tr>
+      </thead>      
+
+      <tbody>
+                  {{#each categorias}}
+                  <tr>
+                        <td>{{this.id_categoria}}</td>
+                        <td>{{this.nome}}</td>
+                        <td>{{this.descricao}}</td>
+                        <td><a href="#">✍</a> <a href="#">🗑</a></td>
+                  </tr>
+                  {{/each}}
+                  </tbody>
+</table>
+
+<a href="/" class="btn btn-secondary">← Voltar</a>
+      
+
+            
+      
+
+

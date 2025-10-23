@@ -1,0 +1,16 @@
+<h1>Hello World, com Handlebars!</h1>
+
+{{#if clientes.length}}
+    {{#each clientes}}
+        <div>
+            <h2>{{this.nome}}</h2>
+            <p>Email: {{this.email}}</p>
+            <p>Senha: {{this.senha}}</p>
+        </div>
+    {{/each}}
+{{else}}
+    <p>Sem clientes disponíveis no momento.</p>
+{{/if}}
+
+<a href="/" class="btn btn-secondary">← Voltar</a>
+
